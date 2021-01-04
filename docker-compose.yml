@@ -1,0 +1,8 @@
+version: '2.4'
+services:
+        newdevops:
+         image: newdevops:v1
+         build: .
+         container_name: newdevops
+         ports:
+                 - 5656:80
